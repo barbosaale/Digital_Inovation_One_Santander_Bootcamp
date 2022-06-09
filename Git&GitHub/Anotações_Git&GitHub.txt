@@ -1,0 +1,60 @@
+## Gerar chaves SSH
+$ ssh-keygen -t ed25519 -C email@email.com
+
+* Lembrar de inserir a chave na pag. do github
+
+	* Navegar até a pasta das chaves e posteriormente aplicar esses 2 comandos:
+	$ eval $(ssh-agent -S)
+	$ ssh-add id_ed25519
+
+
+## Configurando o user no
+$ git config --global user.email "email@email.com"
+$ git config --global user.name userXXX
+
+
+## Listar configurações
+$ git config --list
+
+## Desfazer alguma configuração
+$ git config --global --unset user.email
+$ git config --global --unset user.name
+
+* Após, configurar novamente
+
+
+## Ligando o repositório local com o repositório remoto
+$ git remote add origin https://github.com/userxxx/xxx.git
+
+## Verificar para onde o repositório local está apontado
+$ git remote -v
+
+
+## Clonar um repositório na máquina local:
+$ git clone git@github.com:xxx/xxx.hithub.io.git
+
+## Iniciar um repositório
+$ git init
+
+
+## Mostrar status:
+$ git status
+
+
+## Local para github
+---------------------------------------
+$ git add * | git add -A
+
+$ git commit -m "texto do commit"
+
+$ git push origin master
+---------------------------------------
+
+## Github para local
+$ git pull origin master
+
+
+
+#### Link de outra fonte:
+https://github.com/engenheiracoelho/engenheiracoelho/blob/master/Git.md
+
