@@ -1,0 +1,60 @@
+body{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(235, 244, 209,0.3);
+}
+
+.wrapper{
+    margin-top: 5%;
+    max-width: 90%;
+    min-width: 40%;
+    background-color: bisque;
+    background-image: url('../img/bg.webp');
+    text-align: center;
+}
+
+
+.wrapper h1{
+    font-family: 'Fascinate', cursive;
+}
+
+#input{
+    height: 30px;
+    border-radius: 10%;
+    padding-left: 10px;
+}
+
+#adicionar{
+    height: 32px;
+    border-radius: 10%;
+}
+
+
+.list{
+    min-width: 100px;
+    margin-top: 30px;
+    text-align: left;
+    padding: 10px;
+}
+
+
+.wrapper-list{
+    margin-top: 3px;
+    background-color: rgba(251, 246, 246, 0.6);
+    display: flex;
+}
+
+.remover{
+    margin-left: 15px;
+    font-size: 11px;
+    color: red;
+    margin: 2px 0;
+    background-color: rgb(245, 206, 206);
+    border: 0px;
+    justify-self: flex-end;
+    display: block;
+    margin-left: auto;
+}
+
+

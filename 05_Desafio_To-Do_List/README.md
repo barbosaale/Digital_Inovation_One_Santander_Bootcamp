@@ -1,0 +1,1 @@
+## Desafio do Curso Iniciando com JS. Objetivo: Construir o front-end um "To-Do list" simples.
