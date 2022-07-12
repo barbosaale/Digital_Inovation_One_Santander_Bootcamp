@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/desafio4/desafio4.cde1fdb0.css">
+
+    <title>Desafio 4</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg" alt="logo the movie db">
+    </header>
+
+    <div class="wrapper login">
+        
+            <h3>Use usuário e senha, ou a API Key para realizar o Login.</h3>
+        
+        <form class="form1">
+            <input type="text" id="login" placeholder="Login" onchange="preencherLogin(event)">
+            <input id="senha" placeholder="Senha" type="password" onchange="preencherSenha(event)">
+            <input id="api-key" placeholder="Api Key" onchange="preencherApi()">
+            <button id="login-button" disabled="">Login</button>
+        </form>
+
+
+    </div>
+
+    <div class="wrapper pesquisa">
+        <h3>Pesquisa</h3>
+
+        <form class="search">
+            <input id="search" placeholder="Escreva...">
+            <button id="search-button">Pesquisar Filme</button>
+        </form>
+
+        <div id="search-container">
+
+           
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="/desafio4/desafio4.ff00f3b0.js"></script>
+</body>
+
+</html>
+
